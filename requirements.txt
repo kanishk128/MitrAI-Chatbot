@@ -3,4 +3,6 @@ google-generativeai
 python-dotenv
 transformers
 wheel
-pytorch
+torch
+torchvision
+torchaudio
