@@ -34,9 +34,8 @@ Keep your responses short, inquiring more about the user's situation and try too
 """
 
 # Load the emotion detection pipeline from the Hugging Face model hub
-from transformers import pipeline
-
-emotion_detection_pipeline = pipeline("text-classification", model="badmatr11x/roberta-base-emotions-detection-from-text", tokenizer="badmatr11x/roberta-base-emotions-detection-from-text")
+import transformers
+emotion_detection_pipeline = transformers.pipeline("text-classification", model="badmatr11x/roberta-base-emotions-detection-from-text", tokenizer="badmatr11x/roberta-base-emotions-detection-from-text")
 
 if input:
     user_text = input
