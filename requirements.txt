@@ -2,5 +2,5 @@ streamlit
 google-generativeai
 python-dotenv
 transformers
-pip install setuptools wheel
+pip install wheel
 pytorch
