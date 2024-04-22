@@ -2,4 +2,5 @@ streamlit
 google-generativeai
 python-dotenv
 transformers
+pip install --upgrade setuptools wheel
 pytorch
